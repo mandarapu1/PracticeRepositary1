@@ -26,6 +26,7 @@ public class Module1 extends BaseClass
 		homepage.clickOnMyInfo();
 		homepage.clickOnContactDetails();
 		
+		//changes @ 15th June 2021 10.27pm
 		Pg103_ContactDetailsPage contactdetails = new Pg103_ContactDetailsPage(driver);
 		contactdetails.clickOnEdit();
 		contactdetails.setAddressStreet1("Nandini Residencncy");
