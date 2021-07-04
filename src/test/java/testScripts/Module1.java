@@ -18,8 +18,8 @@ public class Module1 extends BaseClass
 		driver.get("http://www.testingmasters.com/hrm");
 		
 		Pg101_LoginPage loginpage = new Pg101_LoginPage(driver);
-		loginpage.setUsername("ankit3");
-		loginpage.setPassword("abcd1234");
+		loginpage.setUsername("user03");
+		loginpage.setPassword("pass1234");
 		loginpage.clickOnLogin();
 
 		Pg102_HomePage homepage = new Pg102_HomePage(driver);

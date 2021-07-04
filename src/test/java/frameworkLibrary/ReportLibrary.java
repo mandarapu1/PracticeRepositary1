@@ -125,6 +125,7 @@ public class ReportLibrary extends DataLibrary
 				FrameworkVariables.getInstance().getExtentClassTest().appendChild(FrameworkVariables.getInstance().getExtentBeforeClassTest());
 			}
 			
+			
 			public void CreateExtentTestForAfterClass()
 			{
 				FrameworkVariables.getInstance().setExtentAfterClassTest(FrameworkVariables.getInstance().getExtentReports().startTest("AfterClass"));
