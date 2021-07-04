@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import frameworkLibrary.BasePage;
 import frameworkLibrary.FrameworkVariables;
-
+//sadasdasdas changes
 public class HRMBasePage extends BasePage
 {
 	public WebDriver launchHRMLoginpage()
