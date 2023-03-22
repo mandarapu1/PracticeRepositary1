@@ -7,7 +7,7 @@ import applicationPages.Pg101_LoginPage;
 import applicationPages.Pg102_HomePage;
 import applicationPages.Pg104_EmergencyContacts;
 import frameworkLibrary.BaseClass;
-
+// Module2 --- ---
 public class Module2 extends BaseClass
 {
 	@Test
